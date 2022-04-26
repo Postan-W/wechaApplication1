@@ -1,0 +1,26 @@
+<!--pages/list/list.wxml-->
+<!--值为true和false二值的属性，只写属性名不赋值则代表为true-->
+<view class="container1">
+    <view>A</view>
+    <view>B</view>
+    <view>C</view>
+</view>
+<scroll-view class="container2" scroll-y>
+    <view>滚动A</view>
+    <view>滚动B</view>
+    <view>滚动C</view>
+    <view>滚动D</view>
+    <view>滚动E</view>
+</scroll-view>
+<swiper class="swiper-container" indicator-dots indicator-color="gray" 
+indicator-active-color="green" autoplay interval="1000" circular>
+    <swiper-item>
+    <view class="swiperitem">轮播图A</view>
+    </swiper-item>
+    <swiper-item>
+    <view class="swiperitem">轮播图B</view>
+    </swiper-item>
+    <swiper-item>
+    <view class="swiperitem">轮播图C</view>
+    </swiper-item>
+</swiper>

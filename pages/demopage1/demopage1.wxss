@@ -1,0 +1,67 @@
+/* pages/list/list.wxss */
+.container1{
+    display: flex;/*子容器横向排布*/
+    justify-content: space-around;/*等距排布*/
+}
+.container1 view{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.container1 view:nth-child(1){
+    background-color:lightgreen;
+}
+.container1 view:nth-child(2){
+    background-color:lightyellow;
+}
+.container1 view:nth-child(3){
+    background-color:lightpink;
+}
+/*=================滚动栏===================*/
+.container2{
+    margin: 14px;
+    border: 1px solid red;
+    width: 100px;/*因为是纵向滚动，所以宽度和子容器一样更好看*/
+    height: 200px;/*因为是纵向滚动，所以限定一个高度，高度之外的需要滚动*/
+    
+}
+.container2 view{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.container2 view:nth-child(1){
+    background-color:lightgreen;
+}
+.container2 view:nth-child(2){
+    background-color:lightyellow;
+}
+.container2 view:nth-child(3){
+    background-color:lightpink;
+}
+.container2 view:nth-child(4){
+    background-color:lightblue;
+}
+.container2 view:nth-child(5){
+    background-color:lightgrey;
+}
+/*========================轮播图======================*/
+.swiper-container{
+    height: 150px;
+}
+.swiperitem{
+    height: 100%;
+    line-height: 150px;
+    text-align: center;
+}
+.swiper-container swiper-item:nth-child(1) .swiperitem{
+    background-color: lightblue;
+}
+.swiper-container swiper-item:nth-child(2) .swiperitem{
+    background-color: lightyellow;
+}
+.swiper-container swiper-item:nth-child(3) .swiperitem{
+    background-color: lightpink;
+}

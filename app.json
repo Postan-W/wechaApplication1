@@ -1,7 +1,10 @@
 {
   "pages":[
+    "pages/demopage2/demopage2",
+    "pages/demopage1/demopage1",
     "pages/index/index",
     "pages/logs/logs"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",

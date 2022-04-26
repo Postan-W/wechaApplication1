@@ -1,0 +1,5 @@
+/* pages/demopage2/demopage2.wxss */
+image{
+    border: 5px solid pink;
+    width: 100%;
+}

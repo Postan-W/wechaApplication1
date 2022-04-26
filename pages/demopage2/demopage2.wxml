@@ -1,0 +1,14 @@
+<!--pages/demopage2/demopage2.wxml-->
+<view>
+    <text selectable>tel:1526802238</text>
+</view>
+ <rich-text nodes="<h1 style='color: blue'>rich text</h1>"></rich-text>
+ <button type="primary">主色调按钮</button>
+ <button type="warn" size="mini">警告按钮</button>
+ <button type="default" size="mini">普通按钮</button>
+ <button type="primary" size="mini">主色调按钮</button>
+ <button type="warn" size="mini" plain>警告按钮</button>
+ <button type="default" size="mini" plain>普通按钮</button>
+ <button type="primary" size="mini" plain>主色调按钮</button>
+ <image src="/images/1.jpg" mode="aspectFit"></image> 
+ <image src="/images/1.jpg"></image> 
