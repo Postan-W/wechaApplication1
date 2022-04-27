@@ -1,6 +1,6 @@
 <!--pages/demopage2/demopage2.wxml-->
 <view>
-    <text selectable>tel:1526802238</text>
+    <text selectable>{{info}}</text>
 </view>
  <rich-text nodes="<h1 style='color: blue'>rich text</h1>"></rich-text>
  <button type="primary">主色调按钮</button>
