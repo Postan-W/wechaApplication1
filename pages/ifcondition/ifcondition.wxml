@@ -1,0 +1,15 @@
+<!--pages/ifcondition/ifcondition.wxml-->
+<text>pages/ifcondition/ifcondition.wxml</text>
+<!--条件渲染，即在满足条件的时候才显示组件-->
+<view wx:if="{{condition == 1}}">男</view>
+<view wx:elif="{{condition == 0}}">女</view>
+<view wx:else>未知</view>
+<!--使用block包裹多个组件，实现多个组件的条件渲染,block不是组件，本身不会被展示-->
+<block wx:if="{{true}}">
+    <view>view1</view>
+    <view>view2</view>
+    <view>view3</view>
+</block>
+<!--使用hidden属性控制隐藏-->
+<view hidden="{{hidden == 2}}">使用hidden属性控制隐藏</view>
+<!--wx:if的原理是创建和移除组件，hidden属性实际上是控制样式display：none/block来控制展示与否-->

@@ -1,0 +1,5 @@
+/* pages/demopage3/demopage3.wxss */
+input{
+    border: 1px solid gray;
+    border-radius: 3px; 
+}

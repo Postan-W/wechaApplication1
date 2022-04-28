@@ -1,0 +1,10 @@
+<!--pages/demopage3/demopage3.wxml-->
+<text>pages/demopage3/demopage3.wxml</text>
+<image src="{{imgsrc}}" mode="aspectFit"></image>
+<view>{{randnum >=5 ? "大于等于5":"小于5"}}</view>
+<button type="primary" bindtap="pressbutton">按钮</button>
+<view>{{count}}</view>
+<button type="primary" bindtap="plusone">plusone</button>
+<!--使用data-传参，横杠后面是参数名，数字应该用{{}}围起来，不然会被当作字符串-->
+<button type="primary" bindtap="plustwo" data-number="{{2}}">plustwo</button>
+<input value="{{msg}}" bindinput="inputhandler"></input>

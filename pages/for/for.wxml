@@ -1,0 +1,9 @@
+<!--pages/for/for.wxml-->
+<text>pages/for/for.wxml</text>
+ <view wx:for="{{brands}}">
+    {{index}}:{{item}}
+ </view>
+ <!--也可以给index和item设置别名-->
+ <view wx:for="{{brands}}" wx:for-index="number" wx:for-item="value">
+    {{number}}:{{value}}
+ </view>

@@ -1,5 +1,8 @@
 {
   "pages":[
+    "pages/for/for",
+    "pages/ifcondition/ifcondition",
+    "pages/demopage3/demopage3",
     "pages/demopage2/demopage2",
     "pages/demopage1/demopage1",
     "pages/index/index",
