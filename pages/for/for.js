@@ -5,7 +5,12 @@ Page({
      * 页面的初始数据
      */
     data: {
-        brands:['iphone','huawei','xiaomi','vivo','oppo']
+        brands:['iphone','huawei','xiaomi','vivo','oppo'],
+        userlist:[
+            {id:1,name:'老大'},
+            {id:2,name:'老二'},
+            {id3:3,name:'老三'}
+        ]
     },
 
     /**
