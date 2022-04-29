@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/gettest/gettest",
     "pages/for/for",
     "pages/ifcondition/ifcondition",
     "pages/demopage3/demopage3",
@@ -22,7 +23,8 @@
     "list": [
         {
             "pagePath": "pages/for/for",
-            "text":"for"
+            "text":"for",
+            "selectedColor": "#e91313"
         },
         {
         "pagePath": "pages/demopage1/demopage1",

@@ -1,0 +1,3 @@
+<!--pages/gettest/gettest.wxml-->
+<text>pages/gettest/gettest.wxml</text>
+<button type="primary" bindtap="getrequest">Get请求</button>
