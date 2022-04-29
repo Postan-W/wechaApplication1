@@ -9,11 +9,25 @@ Page({
     },
     getrequest(){
         wx.request({
-          url: 'https://www.escook.cn/api/get',
+          url: 'http://localhost:5000/welcome',
           method:"GET",
           data:{
               name:"test",
               age:20
+          },
+          success:(res)=>{
+              console.log(res)
+              console.log(res.data)
+          }
+        })
+    },
+    postrequest(){
+        wx.request({
+          url: 'https://www.escook.cn/api/post',
+          method:"POST",
+          data:{
+              name:"post",
+              age:21
           },
           success:(res)=>{
               console.log(res)
@@ -24,7 +38,8 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad(options) {
-
+        this.getrequest()
+        this.postrequest()
     },
 
     /**
