@@ -10,3 +10,5 @@
  <view wx:for="{{userlist}}" wx:key="id" class="username">
     {{item.name}}
  </view>
+ <navigator url="/pages/demopage1/demopage1" open-type="switchTab">导航到demo1</navigator>
+ <navigator url="/pages/info/info" open-type="navigate">导航到非tabbar页面</navigator>
