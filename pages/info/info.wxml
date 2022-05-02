@@ -1,3 +1,4 @@
 <!--pages/info/info.wxml-->
 <text>pages/info/info.wxml</text>
 <navigator open-type="navigateBack" delta="1">返回上一页</navigator><!--delta数值表示返回得层级数，这里是上一页，所以是1-->
+<button type="primary" bindtap="back">页面回退</button>

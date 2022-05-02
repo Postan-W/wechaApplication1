@@ -12,3 +12,12 @@
  </view>
  <navigator url="/pages/demopage1/demopage1" open-type="switchTab">导航到demo1</navigator>
  <navigator url="/pages/info/info" open-type="navigate">导航到非tabbar页面</navigator>
+ <button bindtap="switchtab" type="primary">tabbar编程式跳转</button>
+ <button bindtap="switch2somepage" type="primary" class="switchbutton">跳转到非tabbar页面</button>
+ <!--带参数跳转-->
+ <navigator url="/pages/info/info?name=英雄&age=20" >带参数跳转到info页面</navigator>
+ <!--下拉触底测试-->
+ <view class="box">
+    
+ </view>
+

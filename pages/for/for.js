@@ -12,7 +12,16 @@ Page({
             {id3:3,name:'老三'}
         ]
     },
-
+    switchtab(){
+        wx.switchTab({
+          url: '/pages/demopage1/demopage1',
+        })
+    },
+    switch2somepage(){
+        wx.navigateTo({
+          url: '/pages/info/info?name=联盟&age=21',
+        })
+    },
     /**
      * 生命周期函数--监听页面加载
      */
@@ -52,14 +61,20 @@ Page({
      * 页面相关事件处理函数--监听用户下拉动作
      */
     onPullDownRefresh() {
-
+        console.log("下拉刷新啦")
+        this.setData({
+            brands:['nokia','huawei','xiaomi','vivo','oppo']
+        })
+        wx.stopPullDownRefresh({
+          success: (res) => {console.log("关闭下拉刷新")},
+        })
     },
 
     /**
      * 页面上拉触底事件的处理函数
      */
     onReachBottom() {
-
+        console.log("上拉触底")
     },
 
     /**

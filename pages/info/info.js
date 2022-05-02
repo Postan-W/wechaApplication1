@@ -5,14 +5,24 @@ Page({
      * 页面的初始数据
      */
     data: {
+        /**页面参数 */
+        query:{}
 
     },
-
+    back(){
+        wx.navigateBack()
+    },
     /**
      * 生命周期函数--监听页面加载
+     * 调用页面时传递的参数，比如请求/pages/info/info?name=联盟&age=21后面的
+     * 参数就是被onload接收，直接打印options可以看到。为了页面参数能在其他地方被使用到，
+     * 在data里定义一个变量，在onload里将options赋给这个变量。
      */
     onLoad(options) {
-
+        console.log(options)
+        this.setData({
+            query:options
+        })
     },
 
     /**

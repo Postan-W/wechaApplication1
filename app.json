@@ -17,7 +17,7 @@
     "navigationBarTitleText": "wmz",
     "navigationBarTextStyle":"white",
     "enablePullDownRefresh": true,
-    "backgroundColor": "#efefef",
+    "backgroundColor": "#DAF7A6",
     "onReachBottomDistance": 60
   },
   "tabBar": {

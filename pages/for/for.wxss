@@ -1,2 +1,9 @@
 /* pages/for/for.wxss */
 @import "/common/common.wxss";
+.switchbutton{
+    margin-top: 5rpx;
+}
+.box{
+    height: 2000rpx;
+    background-color: brown;
+}
