@@ -24,3 +24,4 @@ indicator-active-color="green" autoplay interval="1000" circular>
     <view class="swiperitem">轮播图C</view>
     </swiper-item>
 </swiper>
+<mytest1></mytest1>

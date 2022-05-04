@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/home/home",
     "pages/for/for",
     "pages/getpost/getpost",
     "pages/ifcondition/ifcondition",
@@ -20,8 +21,14 @@
     "backgroundColor": "#DAF7A6",
     "onReachBottomDistance": 60
   },
+  "usingComponents": {
+    "mytest1":"/componets/test/test"
+  },
   "tabBar": {
     "list": [
+        {"pagePath": "pages/home/home",
+        "text": "home"
+    },
         {
             "pagePath": "pages/for/for",
             "text":"for",
