@@ -1,1 +1,6 @@
 /* componets/test/test.wxss */
+.textfontbold{
+    font-weight: bold;
+    color: blue;
+    font-size: medium;
+}

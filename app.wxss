@@ -13,5 +13,8 @@ view {
     margin: 10rpx;
 }
 view:nth-child(1){
-    background-color: lightcoral;
+    background-color: rgb(221, 127, 127);
+}
+.textfont{
+    color: red;
 }

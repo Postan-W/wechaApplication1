@@ -1,4 +1,6 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<!-- <text>pages/home/home.wxml</text>
 <view></view>
-<mytest1></mytest1>
+<mytest1 class="textfont" max="5"></mytest1> -->
+<!-- <mytest2></mytest2> -->
+<mytest3></mytest3>

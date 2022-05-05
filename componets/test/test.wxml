@@ -1,2 +1,4 @@
 <!--componets/test/test.wxml-->
 <text>componets/test/test.wxml</text>
+<view>count的值:{{count}}</view>
+<button bindtap="addCount" type="primary">数量加1</button>

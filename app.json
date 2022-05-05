@@ -10,8 +10,8 @@
     "pages/info/info",
     "pages/index/index",
     "pages/logs/logs"
-    
   ],
+  
   "window":{
     "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#2b4b6b",
@@ -21,26 +21,31 @@
     "backgroundColor": "#DAF7A6",
     "onReachBottomDistance": 60
   },
+  
   "usingComponents": {
-    "mytest1":"/componets/test/test"
+    "mytest1":"/componets/test/test",
+    "mytest2":"/componets/test2/test2",
+    "mytest3":"/componets/test3/test3"
   },
+
   "tabBar": {
     "list": [
-        {"pagePath": "pages/home/home",
-        "text": "home"
-    },
+        {
+            "pagePath": "pages/home/home",
+            "text": "home"
+        },
         {
             "pagePath": "pages/for/for",
             "text":"for",
             "selectedColor": "#e91313"
         },
         {
-        "pagePath": "pages/demopage1/demopage1",
-        "text": "demo1"
+            "pagePath": "pages/demopage1/demopage1",
+            "text": "demo1"
         },
         {
-        "pagePath": "pages/demopage2/demopage2",
-        "text": "demo2"
+            "pagePath": "pages/demopage2/demopage2",
+            "text": "demo2"
         }
   
    ]

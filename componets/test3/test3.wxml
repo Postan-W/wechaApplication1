@@ -1,0 +1,10 @@
+<!--componets/test3/test3.wxml-->
+<!-- <text>componets/test3/test3.wxml</text> -->
+<view style="background-color:rgb({{fullColor}})" class="colorBox">颜色值：{{fullColor}}</view>
+<button size="mini" type="default" bindtap="changeR">R</button>
+<button size="mini" type="primary" bindtap="changeG">G</button>
+<button size="mini" type="warn" bindtap="changeB">B</button>
+<!--rgb已被声明为纯数据字段，这里渲染时不会去取rgb的值-->
+<view>{{rgb.r}},{{rgb.g}},{{rgb.b}}</view>
+
+
