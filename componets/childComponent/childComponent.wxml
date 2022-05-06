@@ -1,0 +1,4 @@
+<!--componets/childComponent/childComponent.wxml-->
+<!-- <text>componets/childComponent/childComponent.wxml</text> -->
+<view>子组件中count的值:{{count}}</view>
+<button type="primary" bindtap="addTen">增加10</button>

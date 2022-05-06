@@ -1,0 +1,2 @@
+<!--componets/childComponent2/childComponent2.wxml-->
+<view>子组件的count值是：{{count}}</view>

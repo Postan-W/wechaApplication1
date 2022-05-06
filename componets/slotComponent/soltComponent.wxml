@@ -1,0 +1,7 @@
+<!--componets/slotComponent/soltComponent.wxml-->
+<!-- <text>componets/slotComponent/soltComponent.wxml</text> -->
+<view>
+    <slot name="thefirst"></slot>
+    <view>这是组件内部写好的</view>
+    <slot name="thesecond"></slot>
+</view>

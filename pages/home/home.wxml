@@ -3,4 +3,14 @@
 <view></view>
 <mytest1 class="textfont" max="5"></mytest1> -->
 <!-- <mytest2></mytest2> -->
-<mytest3></mytest3>
+<!-- <mytest3></mytest3> -->
+<!-- <slotComponent>
+    <view slot="thefirst">这是在页面中插入的第一个</view>
+    <view slot="thesecond">这是在页面中插入的第二个</view>
+</slotComponent> -->
+<!-- <view>父中count的值为：{{count}}</view> -->
+<!--父组件向子组件传递函数bind:事件名称=函数名。子组件中通过triggerEvent该事件则父组件中定义的该函数就会被调用，实现子组件向父组件传递数据-->
+<!-- <childComponent count="{{count}}" bind:sync="syncCount"></childComponent> -->
+<!--父组件通过class或id名称获取子组件的实例，进而进行一些操作-->
+<childComponent2 class="component2" id="component2" count="10"></childComponent2>
+<button type="primary" bindtap="getChild">父按钮</button>

@@ -33,7 +33,12 @@ Component({
         })},
         changeB(){this.setData({
             'rgb.b':this.data.rgb.b + 5 > 255 ? 255 : this.data.rgb.b + 5
-        })}
+        })},
+        _randomColor(){
+            this.setData({
+                rgb:{r:Math.floor(Math.random()*256),g:Math.floor(Math.random()*256),b:Math.floor(Math.random()*256)}
+            })
+        }
 
     },
     observers:{
@@ -52,5 +57,14 @@ Component({
          attached(){
              console.log("组件被放入到使用该组件的页面节点树中了")
          }
+    },
+    //监听该组件所在页面的声明周期函数，即所在页面的声明周期函数被执行时，该组件会进行响应
+    pageLifetimes:{
+        show(){
+            console.log("监听页面的show函数")
+            this._randomColor()
+        },
+        hide(){console.log("监听页面的hide函数")},
+        resize(){console.log("监听页面的resize函数")}
     }
 })

@@ -5,7 +5,19 @@ Page({
      * 页面的初始数据
      */
     data: {
-
+        count:100
+    },
+    //事件函数通过e.detail获取参数
+    syncCount(e){
+        this.setData({
+            count:e.detail.value
+        })
+    },
+    getChild(){
+        const child = this.selectComponent('.component2')
+        child.setData({
+            count:child.properties.count + 10
+        })
     },
 
     /**

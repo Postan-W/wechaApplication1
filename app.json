@@ -25,7 +25,10 @@
   "usingComponents": {
     "mytest1":"/componets/test/test",
     "mytest2":"/componets/test2/test2",
-    "mytest3":"/componets/test3/test3"
+    "mytest3":"/componets/test3/test3",
+    "slotComponent":"/componets/slotComponent/soltComponent",
+    "childComponent":"/componets/childComponent/childComponent",
+    "childComponent2":"/componets/childComponent2/childComponent2"
   },
 
   "tabBar": {
