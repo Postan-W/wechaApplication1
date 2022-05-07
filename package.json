@@ -1,0 +1,23 @@
+{
+  "name": "wechaapplication1",
+  "version": "1.0.0",
+  "description": "1.云服务器在2022/05/02后可以备案\r 2.云服务器配置SSL证书，参考链接：https://blog.csdn.net/qq_51218646/article/details/122742739\r 3.flask配置ssl，处理https请求测试，参考链接：https://blog.csdn.net/yannanxiu/article/details/70672744\r ## Colors\r 105,70,215\r 123,150,94",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Postan-W/wechaApplication1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Postan-W/wechaApplication1/issues"
+  },
+  "homepage": "https://github.com/Postan-W/wechaApplication1#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.3.3"
+  }
+}

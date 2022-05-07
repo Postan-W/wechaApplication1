@@ -8,13 +8,7 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
-view {
-    background-color: lightblue;
-    margin: 10rpx;
-}
-view:nth-child(1){
-    background-color: rgb(221, 127, 127);
-}
+
 .textfont{
     color: red;
 }
